@@ -134,3 +134,41 @@ main{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
+@media screen and (max-width:750px) {
+    main{
+        width: 100%;
+    }
+
+    .bottom_grid{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom_section:nth-child(1){
+        border-radius: 0px;
+    }
+
+    .bottom_section:nth-child(2){
+        border-bottom-left-radius: 7px;
+    }
+
+    .bottom_section h1{
+        margin-top: 0px;
+    }
+
+    .signup_button{
+        margin-bottom: 2em;
+    }
+ 
+    .signup_button{
+        width: 88%;
+    }
+
+    .bottom_section h1, .price, .bottom_section:nth-child(1) > p{
+        padding-left: 6%;
+    }
+
+    ul{
+        padding-left: 6%;
+    }
+}
