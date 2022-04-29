@@ -134,7 +134,7 @@ main{
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
 
-@media screen and (max-width:750px) {
+@media screen and (max-width:900px) {
     main{
         width: 100%;
     }
