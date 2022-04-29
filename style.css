@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+html{
+    height: 100%;
+}
+
+body{
+    min-height: 100%;
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Karla', sans-serif;
+}
+
+main{
+    width: 35%;
+    box-shadow: 5px 5px 5px rgba(152,166,189,0.3);
+}
+
+.top_grid{
+    background-color: white;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.top_grid h1{
+    margin: 0px 0px 0px 0px;
+    font-weight: 700;
+    font-size: 1.5em;
+    color:hsl(179, 62%, 43%);
+    padding: 1.5em 0em 0em 6%;
+}
+
+.top_grid h2{
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    font-size: 1.2em;
+    margin: 0px 0px 0px 0px;
+    padding: 1.2em 0em 0em 6%;
+}
+
+.top_grid p{
+    color:hsl(218, 22%, 67%);
+    margin: 0px 0px 0px 0px;
+    padding: 0.8em 0em 2.5em 6%;
+    width: 80%;
+}
+
+.bottom_grid{
+    display: flex;
+}
+
+.bottom_section:nth-child(1){
+    flex:1;
+    background-color: hsl(179, 62%, 43%);
+    border-bottom-left-radius: 7px;
+}
+
+.bottom_section:nth-child(2){
+    flex:1;
+    background-color: rgba(42,178,175, 0.7);
+    border-bottom-right-radius: 7px;
+}
+
+.bottom_section h1{
+    color:white;
+    font-size: 1.2em;
+    padding: 2em 0em 0em 12%;
+    margin-bottom: 0px;
+}
+
+.price{
+    display:flex;
+    padding-left:12%;
+}
+
+.price h3{
+    font-weight: 700;
+    font-size:2em;
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+
+.price p{
+    align-self: center;
+    color: white;
+    opacity: 0.6;
+    padding-left: 1em;
+    margin-bottom: 0px;
+    margin-top: 5%;
+}
+
+.bottom_section:nth-child(1) > p{
+    padding-left: 12%;
+    color: white;
+    margin-top: 0.6em;
+    margin-bottom: 0px;
+    opacity: 0.7;
+}
+
+.signup_button{
+    background-color: hsl(71, 73%, 54%);
+    width: 76%;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.2);
+}
+
+.signup_button a{
+    width: 100%;
+    height:100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.signup_button p{
+    font-weight: 700;
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    opacity: 0.9;
+}
+
+.bottom_section:nth-child(2) ul{
+    list-style-type: none;
+    color: white;
+    opacity: 0.7;
+    padding-bottom: 1.5em;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
